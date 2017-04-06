@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:App2"
+             x:Class="App2.MainPage"
+             BackgroundImage="SaluteLMC.png"
+             >
+    <StackLayout Padding="50" Spacing="20" >
+        <Label HeightRequest="50" 
+               Text="Salute Lviv Mafia Club"
+               HorizontalOptions="Center"
+               VerticalOptions="Start"
+               HorizontalTextAlignment="Center"
+               WidthRequest="480"
+               FontSize="Medium"
+               FontAttributes="Bold"
+               > </Label>
+        
+        <Entry HeightRequest="50"
+               WidthRequest="240"
+               BackgroundColor="White"
+               TextColor="Red"
+               FontSize="Medium"
+               Placeholder="Нік-нейм ведучого"
+               PlaceholderColor="Black"
+               HorizontalTextAlignment="Start"
+               HorizontalOptions="Center"
+               x:Name="NickNameLead"
+               TextChanged="NickNameLead_TextChanged"
+               
+         ></Entry>
+
+        <DatePicker HeightRequest="50"
+                    WidthRequest="360"
+                    TextColor="Red"
+                    BackgroundColor="White"
+                    HorizontalOptions="Center"
+            
+         />
+
+        <Entry BackgroundColor="White"
+               TextColor="Red"
+               HorizontalOptions="Center"
+               VerticalOptions="EndAndExpand"
+               Keyboard="Numeric"
+               x:Name="NumberGame"
+               TextChanged="NumberGame_TextChanged"
+            
+        ></Entry>
+        
+
+        <Button VerticalOptions="End"
+                HorizontalOptions="Center"
+                Text="Start"
+                TextColor="Red"
+                BackgroundColor="White"
+                Clicked="Button_ClickedGoToRolleChoosePage"
+                HeightRequest="50"
+                WidthRequest="60"
+                BorderRadius="20"
+                BorderColor="Red"
+                x:Name="ButtonGoToRolePage"
+                
+                
+                >
+            
+        </Button>
+
+    </StackLayout>
+
+</ContentPage>

@@ -1,0 +1,2 @@
+C:\Users\DR.HOUSE\documents\visual studio 2017\Projects\App2\App2\App2.UWP\App2.UWP.csproj;x86
+C:\Users\DR.HOUSE\documents\visual studio 2017\Projects\App2\App2\App2\App2.csproj;neutral
